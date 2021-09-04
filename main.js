@@ -21,7 +21,6 @@ let score
 
 function reset () {
   input = {}
-
   snake = {
     moveElapsed: 0,
     length: 4,
