@@ -1,24 +1,24 @@
 const canvas = document.querySelector('canvas')
 const ctx = canvas.getContext('2d')
-
+//
 canvas.width = canvas.height = 600
 canvas.style.width = '900px'
 canvas.style.height = '900px'
 canvas.style.border = '3px solid #000000'
-
+//
 const CELL_SIZE = 30
 const WORLD_WIDTH = Math.floor(canvas.width / CELL_SIZE)
 const WORLD_HEIGHT = Math.floor(canvas.height / CELL_SIZE)
 const MOVE_INTERVAL = 300
 const FOOD_SPAWN_INTERVAL = 1500
-
+//
 let input
 let snake
 let foods
 let foodSpawnElapsed
 let gameOver
 let score
-
+//
 function reset () {
   input = {}
   snake = {
