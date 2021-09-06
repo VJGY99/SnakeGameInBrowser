@@ -55,7 +55,7 @@ function update (delta) {
 
     return
   }
-
+//
   if (input.ArrowLeft && snake.dir.x !== 1) {
     snake.newDir = { x: -1, y: 0 }
   } else if (input.ArrowUp && snake.dir.y !== 1) {
