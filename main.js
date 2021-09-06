@@ -146,7 +146,7 @@ function render () {
     ctx.fillText('Nyomj egy SPACE-t az újraindításhoz', canvas.width / 2, canvas.height / 2 + 40)
   }
 }
-
+//
 let lastLoopTime = Date.now()
 function gameLoop () {
   const now = Date.now()
