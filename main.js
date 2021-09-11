@@ -100,10 +100,10 @@ function isGameOver() {
       // 
       ctx.fillStyle = gradient;
 
-      ctx.fillText("Game Over!", canvas.width / 6.5, canvas.height / 2);
+      ctx.fillText("Játék vége!", canvas.width / 6.5, canvas.height / 2);
     }
 
-    ctx.fillText("Game Over!", canvas.width / 6.5, canvas.height / 2);
+    ctx.fillText("Játék vége!", canvas.width / 6.5, canvas.height / 2);
   }
 
   return gameOver;
